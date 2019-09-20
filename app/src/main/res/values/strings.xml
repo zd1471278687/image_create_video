@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ImageToVideo</string>
+
+    <string name="grant_permission_phone_call">请到设置中开启应用的电话权限</string>
+    <string name="grant_permission_camera">请到设置中开启应用的摄像头权限</string>
+    <string name="grant_permission_audio">请到设置中开启应用的麦克风权限</string>
+    <string name="grant_permission_read_contact">请到设置中开启应用的通讯录权限</string>
+    <string name="grant_permission_location">获取位置信息失败，请到设置中开启应用的位置信息权限</string>
+    <string name="finder_camara_file_read_permission">请到设置中开启应用的拍照和文件操作等相关权限</string>
+    <string name="open_storagstre_permission_prompt">请到设置中开启应用的存储权限</string>
+
+    <string name="plan_one">方案1：使用第三方库org.jcodec:jcodec-android，缺点是生成效果并不好无法展示完整图片，可能还需要调试</string>
+    <string name="plan_two">方案2：使用Android本身提供的MediaCodec，缺点是只能用一张图片，且限制版本为5.0及以上</string>
+</resources>
